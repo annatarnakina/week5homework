@@ -3,7 +3,6 @@
 }
 
 header {
-    border: solid red;
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -11,7 +10,6 @@ header {
 }
 
 main {
-    border: solid blue;
     justify-content: space-around;
     width: 100vw;
     height: 75vh;
@@ -27,7 +25,6 @@ main {
 }
 
 #more {
-    border: solid pink;
     display: flex;
     justify-content: space-around;
     gap: 20px;
@@ -35,14 +32,12 @@ main {
 }
 
 aside {
-    border: red solid;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 #right {
-    border: solid green;
     width: 50%;
     height: 100%;
     flex-flow: column wrap;
@@ -63,7 +58,6 @@ nav li {
 }
 
 footer {
-    border: solid red;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
