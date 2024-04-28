@@ -7,6 +7,7 @@ header {
     align-items: center;
     width: 100vw;
     height: 100px;
+    background-color: grey;
 }
 
 main {
@@ -16,33 +17,37 @@ main {
 }
 
 #left {
-    border: solid black;
-    width: 50%;
+    width: 70%;
     height: 100%;
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
+    background-color: rgb(249, 204, 137);
 }
 
 #more {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
+    gap: 300px;
+    flex-wrap: wrap;
     align-items: center;
 }
+
 
 aside {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 30px;
+    background-color: rgb(246, 186, 97);
 }
 
 #right {
-    width: 50%;
+    width: 30%;
     height: 100%;
-    flex-flow: column wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    background-color: rgb(141, 168, 141);
 }
 
 nav ul {
@@ -55,6 +60,7 @@ nav ul {
 nav li {
 	display: flex;
 	margin-right: 60px;
+    background-color: rgb(243, 238, 238);
 }
 
 footer {
@@ -62,4 +68,5 @@ footer {
     align-items: center;
     width: 100vw;
     height: 100px;
+    background-color: grey;
 }
